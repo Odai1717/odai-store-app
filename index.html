@@ -40,6 +40,21 @@
   .wa{display:inline-block;margin-top:8px;color:var(--ok);font-weight:700;text-decoration:none}
   .ad-banner{margin-top:14px;min-height:50px;display:flex;justify-content:center;overflow:hidden}
   .ad-native{margin-top:18px;min-height:60px}
+  .promo{position:relative;overflow:hidden;margin-top:18px;border-radius:20px;padding:22px 18px;text-align:center;border:1px solid #ffffff1a}
+  .promo h3{margin:0 0 6px;font-size:24px;font-weight:900;line-height:1.4}
+  .promo p{margin:0;font-weight:700}
+  .promo .chips{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:14px 0 4px}
+  .promo .chips span{background:#0b1220aa;border:1px solid #ffffff33;border-radius:999px;padding:4px 14px;font-weight:700}
+  .promo .btn{display:inline-block;margin-top:14px;background:#25d366;color:#06240f;font-weight:900;text-decoration:none;padding:12px 22px;border-radius:14px}
+  .promo .nums{display:grid;gap:8px;margin-top:14px}
+  .promo .nums a{display:block;background:#0b1220cc;color:#fff;text-decoration:none;border-radius:12px;padding:10px;font-weight:900;font-size:19px;direction:ltr}
+  .promo .nums a small{display:block;direction:rtl;font-weight:700;color:#25d366;font-size:13px}
+  .p1{background:radial-gradient(circle at 15% 20%,#7c3aed 0,transparent 55%),radial-gradient(circle at 90% 90%,#2563eb 0,transparent 55%),#1a1240}
+  .p2{background:linear-gradient(135deg,#e8b44a,#b9832a);color:#0b1220;border:none}
+  .p2 h3{font-size:30px;letter-spacing:.5px}
+  .p2 .big{font-size:34px;font-weight:900;direction:ltr;display:block}
+  .p3{background:radial-gradient(circle at 85% 15%,#059669 0,transparent 55%),radial-gradient(circle at 10% 95%,#0e7490 0,transparent 55%),#062a2a}
+  .promo .glow{position:absolute;inset:auto -40px -60px auto;width:160px;height:160px;border-radius:50%;background:#ffffff14}
   .ad{margin-top:18px;min-height:90px;border:1px dashed var(--line);border-radius:14px;display:grid;place-items:center;color:#55617a;font-size:13px}
   footer{text-align:center;color:#55617a;font-size:13px;margin-top:28px}
 </style>
@@ -53,7 +68,12 @@
   </header>
 
   <!-- ============ إعلان أعلى الصفحة: الصق كود الإعلان مكان هذا الصندوق ============ -->
-  <!-- AD-TOP -->
+  <div class="promo p1"><div class="glow"></div>
+    <h3>🤖 متوفر بوتات</h3>
+    <p>تلعب عنك وتوفر وقتك</p>
+    <div class="chips"><span>⚔ دمج</span><span>📣 نداء</span><span>🎯 صيد</span><span>⛏ تعدين</span></div>
+    <a class="btn" href="https://wa.me/967783019388?text=%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A8%D9%88%D8%AA">💬 اطلب بوتك الآن</a>
+  </div>
 
   <div class="card">
     <a class="dl" id="download" href="#">⬇ تحميل التطبيق</a>
@@ -71,7 +91,11 @@
   </div>
 
   <!-- ============ إعلان وسط الصفحة ============ -->
-  <!-- AD-MIDDLE -->
+  <div class="promo p2">
+    <h3>خليك مع</h3>
+    <span class="big">ODAI STORE</span>
+    <p style="margin-top:6px">ثقة • سرعة • أسعار تناسبك</p>
+  </div>
 
   <div class="card">
     <h2>طريقة التثبيت</h2>
@@ -92,7 +116,14 @@
   </div>
 
   <!-- ============ إعلان أسفل الصفحة ============ -->
-  <!-- AD-BOTTOM -->
+  <div class="promo p3"><div class="glow"></div>
+    <h3>💎 متوفر تخليص موارد<br>وشحن حزم</h3>
+    <p>بأقل الأسعار</p>
+    <div class="nums">
+      <a href="https://wa.me/967783019388"><small>تواصل واتساب — أرقامنا الوحيدة</small>+967 783 019 388</a>
+      <a href="https://wa.me/967776216864"><small>تواصل واتساب — أرقامنا الوحيدة</small>+967 776 216 864</a>
+    </div>
+  </div>
 
   <footer>© ODAI STORE</footer>
 </div>
